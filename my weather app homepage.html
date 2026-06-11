@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>
+            My Weather App Homepage
+        </title>
+        <style>
+            h1 {
+  background: linear-gradient(to right, #e1bae2de, #9835a1);
+  -webkit-background-clip: text; 
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  color: transparent;
+                font-weight:bold;
+                font-size:50px;
+                text-align:center;
+                padding:10px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .description {
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight:bold;
+                padding:0px;
+                font-size:25px;
+                background: linear-gradient(to right, #e478ccde, #8d1a61);
+  -webkit-background-clip: text; 
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  color: transparent;
+  text-align:center;
+ 
+            }
+         #info-holder  {
+        height: 400px;
+        width: 560px;
+        border-style:dotted ;
+        border-radius:15px;
+        border-width:5px ;
+        margin: auto;
+        border:3px solid rgb(36, 116, 119);
+        margin: auto;
+       background-image:linear-gradient(to bottom, #119680de, #3bc5ae);
+           }
+           .info {
+            color:rgb(185, 243, 229);
+            text-align: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:35px;
+            font-weight: lighter;
+           }
+   
+    .information  {
+        font-size:50px;
+        text-align:center;
+        color:rgb(185, 243, 229);
+        font-weight: bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        animation: floatCloud 3s infinite alternate
+    }
+     @keyframes floatCloud {
+      from {
+        transform: translateY(0);
+      }
+ 
+      to {
+        transform: translateY(20px);
+      }
+    }
+    body {
+        background-image: radial-gradient(circle, white 2px, transparent 3px);
+        background-color: rgb(224, 168, 187);
+        background-size: 40px 40px;
+      background-repeat: repeat;
+      background-position: top center;
+      background-attachment: fixed;
+      color: white;
+      text-align: center;
+    }
+        </style>
+    </head>
+    <body>
+        <h1>My Weather App Homepage</h1>
+        <div class="description">
+            <h2>Check out today's weather and have a better day by planning it better!</h2>
+        </div>
+        <div id="info-holder">
+        <div class="information">Name of City:Chennai</div>
+        <p class="info">Current Temperature:37℃</p>
+        <p class="info">Humidity:75%</p>
+        <p class="info">Current Weather Condition:Very Sunny</p>
+        </div>
+    </body>
+</html>
