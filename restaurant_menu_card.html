@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>
+           My Restaurant Menu Card
+        </title>
+        <style>
+            .body-holder {
+                width: 800;
+                background-color:wheat;
+                border:2px solid rgb(216, 172, 91);
+                border-radius:15px;
+                height:auto;
+                box-shadow: 2px 2px 10px;
+            }
+            .menu {
+                font-weight:bold;
+                font-size:20px;
+                color:rgb(240, 113, 67);
+                text-shadow:2px 2px 4px rgb(184, 122, 8);
+                text-transform:capitalize;
+            } 
+            .menu-part {
+                font-weight:lighter;
+                color:rgb(38, 24, 121);
+            }
+            .heading {
+                font-weight:bold;
+                color:rgb(56, 17, 94);
+                text-decoration:underline
+            }
+            .dishes {
+                color:rgb(63, 10, 10);
+                font-weight:bold;
+            }
+            .def {
+                color:rgb(2, 37, 2)
+            }
+            .price {
+               text-transform: uppercase;
+               text-align:center;
+               box-shadow: 2px 2px 10px lawngreen;
+               color: white;
+               background-color: lawngreen;
+               transform: scale(1.1);
+               transform: rotate(+2deg);
+               font-weight: bold;
+               text-shadow:2px 2px 4px lightslategray
+            }
+        </style>
+        </head>
+        <body style="color: rgb(238, 209, 167);">
+            <h1>Your Appetite Stop</h1>
+            <div class="body-holder">
+                <p class="menu">welcome!</p>
+                <p class="menu-part">One bite,you will regret not coming sooner!</p>
+                <hr>
+                <h2 class="heading"><i>Our Delicacies</i></h2>
+                <dl class="dish tag">
+                    <dt class="dishes">Schnitzel</dt>
+                    <dd class="def"> A thin, tenderized meat cutlet coated in fine breadcrumbs and pan-fried until golden. Every bite is crispy, comforting, and finished with a squeeze of fresh lemon.</dd>
+                </dl>
+                <dl class="dish tag">
+                    <dt class="dishes">Spaghetti alla Carbonara</dt>
+                    <dd class="def"> Rich Roman pasta tossed with egg yolks, sharp Pecorino cheese, and crispy cured pork. The heat of the pasta creates a luxurious, velvety sauce without using any cream.</dd>
+                </dl>
+                 <dl class="def">
+                    <dt class="dishes"> Nashville Hot Chicken</dt>
+                    <dd class="def">Juicy fried chicken coated in a fiery paste of cayenne pepper and hot lard. It packs a serious punch and comes served with white bread and pickles.</dd>
+                 </dl>
+                 <dl>
+                    <dt class="dishes">Coastal Golden Fry</dt>
+                    <dd class="def"> Flaky white fish dipped in a light, bubbly batter and fried until crunchy. It comes paired with thick-cut potato chips and a splash of tangy malt vinegar.</dd>
+                 </dl>
+                 <p class="price">buy 1,get 1 free!</p>
+            </div>
+        </body>
+</html>
